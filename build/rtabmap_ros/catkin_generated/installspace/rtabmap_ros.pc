@@ -1,0 +1,8 @@
+prefix=/home/yanxin-am/ws_jh/install
+
+Name: rtabmap_ros
+Description: Description of rtabmap_ros
+Version: 0.20.18
+Cflags: -I${prefix}/include -I/opt/ros/noetic/lib/x86_64-linux-gnu/rtabmap-0.20/../../../include/rtabmap-0.20 -I/usr/include/opencv4
+Libs: -L${prefix}/lib -lrtabmap_ros /opt/ros/noetic/lib/x86_64-linux-gnu/librtabmap_core.so /opt/ros/noetic/lib/x86_64-linux-gnu/librtabmap_utilite.so /opt/ros/noetic/lib/x86_64-linux-gnu/librtabmap_gui.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libfreenect.so /usr/lib/x86_64-linux-gnu/libfreenect_sync.so /usr/lib/libOpenNI2.so /usr/lib/x86_64-linux-gnu/libdc1394.so /opt/ros/noetic/lib/liboctomap.so /opt/ros/noetic/lib/liboctomath.so /usr/lib/x86_64-linux-gnu/libvtkGUISupportQt-7.1.so.7.1p.1 /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+Requires: cv_bridge roscpp rospy sensor_msgs std_msgs std_srvs nav_msgs geometry_msgs visualization_msgs image_transport tf tf_conversions tf2_ros eigen_conversions laser_geometry pcl_conversions pcl_ros nodelet dynamic_reconfigure message_filters class_loader rosgraph_msgs stereo_msgs move_base_msgs image_geometry costmap_2d octomap_msgs rviz find_object_2d

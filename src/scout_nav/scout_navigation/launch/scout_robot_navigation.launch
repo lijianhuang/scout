@@ -1,0 +1,12 @@
+<launch>
+
+    <!-- localization -->
+    <include file="$(find hunter_cartographer)/launch/hunter_2d_localization.launch" />
+
+    <!-- motion planning & control -->
+    <include file="$(find hunter_navigation)/launch/config_move_base.launch" />
+
+    <!-- visualization -->
+    <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find hunter_navigation)/cfg/rviz_navigation.rviz"/> -->
+
+</launch>
